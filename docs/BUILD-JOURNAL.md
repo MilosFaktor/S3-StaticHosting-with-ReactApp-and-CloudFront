@@ -63,7 +63,7 @@ npm run build
     - Specified `index.html` as the entry point.
 
 **Screenshot:**
-modifing www.cloudnecessities.com bucket 
+
 <img src="../screenshots/uploading files into S3 bucker.png" width="750">
 
 <img src="../screenshots/modifing www.cloudnecessities.com bucket.png" width="750">
