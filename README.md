@@ -83,7 +83,7 @@ This setup allows you to:
 
 <img src="screenshots/S3 buckets overview.png" width="750">
 
-<img src="screenshots/route53 records CNAME records.png" width="750">
+<img src="screenshots/Route53 with cloudfront redirect.png" width="750">
 
 <img src="screenshots/CloudFront set up website console.png" width="750">
 
