@@ -7,9 +7,9 @@ This journal documents the step-by-step process of hosting a React application o
 
 **Diagram**
 
-<img src="screenshots/1-diagram-no cache.png" width="750">
+<img src="../screenshots/1-diagram-no cache.png" width="750">
 
-<img src="screenshots/1.1-diagram-cloudfront.png" width="750">
+<img src="../screenshots/1.1-diagram-cloudfront.png" width="750">
 
 ## 1. Setting up React App on Windows PowerShell
 
@@ -34,7 +34,7 @@ npm run build
 
 **Screenshot:**
 
-<img src="screenshots/react app created.png" width="750">
+<img src="../screenshots/react app created.png" width="750">
 
 ## 2. Creating Amazon S3 Buckets
 
@@ -46,7 +46,7 @@ npm run build
 
 **Screenshot:**
 
-<img src="screenshots/S3 buckets overview.png" width="750">
+<img src="../screenshots/S3 buckets overview.png" width="750">
 
 ## 3. Configuring S3 Bucket: `www.cloudnecessities.com`
 
@@ -60,9 +60,9 @@ npm run build
 
 **Screenshot:**
 
-<img src="screenshots/uploading files into S3 bucker.png" width="750">
+<img src="../screenshots/uploading files into S3 bucker.png" width="750">
 
-<img src="screenshots/s3 bucket policy.png" width="750">
+<img src="../screenshots/s3 bucket policy.png" width="750">
 
 ## 4. Configuring S3 Bucket: `cloudnecessities.com`
 
@@ -82,7 +82,7 @@ This configuration ensures users visiting `cloudnecessities.com` are redirected 
 
 **Screenshot:**
 
-<img src="screenshots/route53 records.png" width="750">
+<img src="../screenshots/route53 records.png" width="750">
 
 ## 6. Setting Up CloudFront and SSL/TLS
 
@@ -95,7 +95,7 @@ This configuration ensures users visiting `cloudnecessities.com` are redirected 
 
 **Screenshot:**
 
-<img src="screenshots/N.Virginia certificate.png" width="750">
+<img src="../screenshots/N.Virginia certificate.png" width="750">
 
 ## 7. Configuring CloudFront Distribution
 
@@ -110,7 +110,7 @@ This configuration ensures users visiting `cloudnecessities.com` are redirected 
 
 **Screenshot:**
 
-<img src="screenshots/CloudFront domain.png" width="750">
+<img src="../screenshots/CloudFront domain.png" width="750">
 
 ## 8. Updating DNS Records in Route 53
 
@@ -124,9 +124,9 @@ This configuration ensures users visiting `cloudnecessities.com` are redirected 
 
 **Screenshot:**
 
-<img src="screenshots/route53 records CNAME records.png" width="750">
+<img src="../screenshots/route53 records CNAME records.png" width="750">
 
-<img src="screenshots/CloudFront set up website console.png" width="750">
+<img src="../screenshots/CloudFront set up website console.png" width="750">
 
 ## ✅ Deployment Complete
 
