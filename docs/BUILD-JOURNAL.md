@@ -23,6 +23,10 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ``` bash
 npx create-react-app demo-app
 ```
+- cd to demo-app directory:
+``` bash
+cd demo-app
+```
 - Verified that the React app works by launching it in PowerShell:
 ``` bash
 npm start
@@ -59,8 +63,10 @@ npm run build
     - Specified `index.html` as the entry point.
 
 **Screenshot:**
-
+modifing www.cloudnecessities.com bucket 
 <img src="../screenshots/uploading files into S3 bucker.png" width="750">
+
+<img src="../screenshots/modifing www.cloudnecessities.com bucket.png" width="750">
 
 <img src="../screenshots/s3 bucket policy.png" width="750">
 
@@ -72,6 +78,10 @@ npm run build
     - Protocol: HTTP (later upgraded to HTTPS via CloudFront).
 This configuration ensures users visiting `cloudnecessities.com` are redirected to the `www` domain.
 
+**Screenshot:**
+
+<img src="../screenshots/modifing cloudnecessities.com bucket.png" width="750">
+
 ## 5. Connecting Domain via Route 53
 
 - Opened Route 53 and accessed the hosted zone for `cloudnecessities.com`.
@@ -82,7 +92,7 @@ This configuration ensures users visiting `cloudnecessities.com` are redirected 
 
 **Screenshot:**
 
-<img src="../screenshots/route53 records.png" width="750">
+<img src="../screenshots/Route53 with s3 endpoint.png" width="750">
 
 ## 6. Setting Up CloudFront and SSL/TLS
 
@@ -110,6 +120,8 @@ This configuration ensures users visiting `cloudnecessities.com` are redirected 
 
 **Screenshot:**
 
+<img src="../screenshots/CloudFront.png" width="750">
+
 <img src="../screenshots/CloudFront domain.png" width="750">
 
 ## 8. Updating DNS Records in Route 53
@@ -124,9 +136,11 @@ This configuration ensures users visiting `cloudnecessities.com` are redirected 
 
 **Screenshot:**
 
-<img src="../screenshots/route53 records CNAME records.png" width="750">
+<img src="../screenshots/Route53 with cloudfront redirect.png" width="750">
 
 <img src="../screenshots/CloudFront set up website console.png" width="750">
+
+<img src="../screenshots/secured through CloudFront.png" width="750">
 
 ## ✅ Deployment Complete
 
